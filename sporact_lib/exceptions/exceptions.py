@@ -1,0 +1,2 @@
+class SporactValueError(Exception):
+    pass
