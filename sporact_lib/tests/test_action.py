@@ -12,13 +12,13 @@
 #  License for the specific language governing permissions and limitations
 #  under the License.
 
-import unittest
-
-from sporact_lib.actions import MyAction
-
-
-class MyTestCase(unittest.TestCase):
-    def test_action(self):
-        action = MyAction(None)
-
-        self.assertDictEqual(action.run(None), {'status': 0})
+# import unittest
+#
+# from sporact_lib.actions import MyAction
+#
+#
+# class MyTestCase(unittest.TestCase):
+#     def test_action(self):
+#         action = MyAction(None)
+#
+#         self.assertDictEqual(action.run(None), {'status': 0})

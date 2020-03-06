@@ -23,19 +23,19 @@
 #  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 #  License for the specific language governing permissions and limitations
 #  under the License.
+#
+# import unittest
+# import uuid
+# from uuid import UUID
+#
+#
+# from sporact_lib.expression_functions import my_function_
 
-import unittest
-import uuid
-from uuid import UUID
-
-
-from sporact_lib.expression_functions import my_function_
-
-
-class MyTestCase(unittest.TestCase):
-    def test_my_function(self):
-        context = {'__execution': {'id': uuid.uuid4().hex}}
-        result = my_function_(context)
-
-        # should not throw an exception
-        UUID(str(result), version=5)
+#
+# class MyTestCase(unittest.TestCase):
+#     def test_my_function(self):
+#         context = {'__execution': {'id': uuid.uuid4().hex}}
+#         result = my_function_(context)
+#
+#         # should not throw an exception
+#         UUID(str(result), version=5)
