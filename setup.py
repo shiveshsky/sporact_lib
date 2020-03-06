@@ -10,7 +10,4 @@ setuptools.setup(
     version="0.1.0",
     packages=find_packages(),  # fix
     description="Sporact base actions for mistral",
-    # entry_points={
-    #     "mistral.actions": ["sporact.create_case = sporact.actions:CreateCase"]
-    # },
 )
